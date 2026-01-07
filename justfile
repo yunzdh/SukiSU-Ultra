@@ -12,3 +12,4 @@ clippy:
     cargo fmt --manifest-path ./userspace/ksud/Cargo.toml
     cross clippy --target x86_64-pc-windows-gnu --release --manifest-path ./userspace/ksud/Cargo.toml
     cross clippy --target aarch64-linux-android --release --manifest-path ./userspace/ksud/Cargo.toml
+
